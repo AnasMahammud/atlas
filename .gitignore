@@ -1,0 +1,19 @@
+node_modules/
+dist/
+build/
+.vite/
+coverage/
+*.log
+.DS_Store
+
+# Secrets and local runtime data — never commit
+.env
+.env.*
+!.env.example
+data/
+*.sqlite
+*.sqlite-*
+*.db
+
+# Local editor/preview config (machine-specific paths)
+.claude/launch.json
